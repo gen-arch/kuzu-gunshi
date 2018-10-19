@@ -1,6 +1,6 @@
 $: << __dir__
 
-require "kuzu/gunshi"
+require "lib/kuzu/gunshi"
 
 childs = Kuzu::Gunshi::Fork.new(10)
 child_gunshi = childs.come_on
