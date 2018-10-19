@@ -5,4 +5,3 @@ module Kuzu::Gunshi
   SEITAN = "ワシ生誕"
   require "kuzu/gunshi/load"
 end
-
