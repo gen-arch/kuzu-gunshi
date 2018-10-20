@@ -5,8 +5,14 @@ module Template
     def initialize
       @os = Hash.new
     end
+
     def you_are_name?
       self.class.name
+    end
+
+    def kill
+      puts "good by dad"
+      raise "The world is broken"
     end
 
     def method_missing(name, *args, &block)
